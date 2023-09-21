@@ -10,7 +10,7 @@ public class Program
         string name = Console.ReadLine();
         Console.WriteLine("Введите путь файла");
         string way = Console.ReadLine();
-        File.Copy(src1, (@"" + way + name));
+        File.Copy(src1, (@"" + way + name + ".txt"));
 
         Console.WriteLine("Последовательное копирование");
         Timer timer = new Timer();
